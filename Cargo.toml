@@ -3,7 +3,7 @@ name = "random_graphs"
 version = "0.1.0"
 authors = ["Robert Usher <266585+dcchut@users.noreply.github.com>"]
 edition = "2018"
-description = "A template for creating Rust library applications."
+description = "A library for generating random graphs"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/dcchut/random_graphs"
@@ -11,3 +11,4 @@ repository = "https://github.com/dcchut/random_graphs"
 [dependencies]
 thiserror = "1.0"
 petgraph = "0.5"
+rand = "0.7"
