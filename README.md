@@ -1,12 +1,12 @@
-# dcc-template-lib
+# random_graphs
 
-[![Build Status](https://travis-ci.org/dcchut/dcc-template-lib.svg?branch=master)](https://travis-ci.org/dcchut/dcc-template-lib)
-[![codecov](https://codecov.io/gh/dcchut/dcc-template-lib/branch/master/graph/badge.svg)](https://codecov.io/gh/dcchut/dcc-template-lib)
+[![Build Status](https://travis-ci.org/dcchut/random_graphs.svg?branch=master)](https://travis-ci.org/dcchut/random_graphs)
+[![codecov](https://codecov.io/gh/dcchut/random_graphs/branch/master/graph/badge.svg)](https://codecov.io/gh/dcchut/random_graphs)
 
-dcc-template-lib is a template for creating Rust library applications.
+A Rust library for generating random graphs.
 
-* [API Documentation](https://docs.rs/dcc-template-lib/)
-* Cargo package: [dcc-template-lib](https://crates.io/crates/dcc-template-lib)
+* [API Documentation](https://docs.rs/random_graphs/)
+* Cargo package: [random_graphs](https://crates.io/crates/random_graphs)
 
 ---
 ## Installation
@@ -15,15 +15,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-dcc-template-lib = "0.1"
-```
-
-## Basic Usage
-
-```rust
-fn main() {
-    println!("Hello world!");
-}
+random_graphs = "0.1"
 ```
 
 ### License
